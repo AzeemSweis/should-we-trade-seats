@@ -1,38 +1,73 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+  font-family: 'Arial', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  display: block;
+  color: #555;
+}
+
+.select-container {
+  margin-bottom: 20px; /* Space between dropdown questions */
+  display: flex;       /* Added flexbox for label and select to be inline */
+  align-items: center; /* Align vertically */
+}
+
+label span {
+  margin-right: 25px;  /* Added more space between the question text and dropdown */
+}
+
+select {
+  padding: 8px 12px;
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+}
+
+button {
+  background-color: #6200ea;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+botton:hover {
+  background-color: #3700b3;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-top: 20px;
+  color: #008000
+}
+
+button.reset {
+  background-color: #ff1744;
+  margin-top: 20px;
+}
+
+button.reset:hover {
+  background-color: #d50000;
 }
