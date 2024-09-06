@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/should-we-trade-seats/static/css/main.e50a8ffa.css",
+    "main.js": "/should-we-trade-seats/static/js/main.6c8e2323.js",
+    "static/js/453.f0669ba1.chunk.js": "/should-we-trade-seats/static/js/453.f0669ba1.chunk.js",
+    "index.html": "/should-we-trade-seats/index.html",
+    "main.e50a8ffa.css.map": "/should-we-trade-seats/static/css/main.e50a8ffa.css.map",
+    "main.6c8e2323.js.map": "/should-we-trade-seats/static/js/main.6c8e2323.js.map",
+    "453.f0669ba1.chunk.js.map": "/should-we-trade-seats/static/js/453.f0669ba1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e50a8ffa.css",
+    "static/js/main.6c8e2323.js"
+  ]
+}
