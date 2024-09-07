@@ -12,6 +12,7 @@ h1 {
   color: #333;
   font-size: 2.5rem;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 label {
@@ -25,6 +26,8 @@ label {
   margin-bottom: 20px; /* Space between dropdown questions */
   display: flex;       /* Added flexbox for label and select to be inline */
   align-items: center; /* Align vertically */
+  justify-content: center; /* Align horizontally */
+  width: 100%;
 }
 
 label span {
@@ -70,4 +73,35 @@ button.reset {
 
 button.reset:hover {
   background-color: #d50000;
+}
+
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .select-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  label span {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  select {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  button.reset {
+    width: 100%;
+    max-width: 300px;
+  }
 }
