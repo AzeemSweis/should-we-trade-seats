@@ -104,7 +104,7 @@ function App() {
             <option value="child">Yes, child</option>
             <option value="sibling">Yes, sibling</option>
             <option value="friend">Yes, friend</option>
-            <option value="spouse">Yes, husban/wife</option>
+            <option value="spouse">Yes, husband/wife</option>
             <option value="dating">Yes, boyfriend/girlfriend</option>
             <option value="no">No</option>
           </select>
